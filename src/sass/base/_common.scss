@@ -1,0 +1,50 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-family: 'Gilroy', sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--bg-color);
+  letter-spacing: 0.03em;
+}
+
+.title {
+  margin-bottom: 32px;
+
+  font-family: 'Gilroy';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.subtitle {
+  margin-bottom: 16px;
+
+  font-family: 'Gilroy';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 125%;
+}
+
+.text {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 125%;
+}

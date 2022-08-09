@@ -1,0 +1,44 @@
+.hero__item:not(:last-child) {
+  margin-bottom: 16px;
+}
+.hero__list {
+  margin-bottom: 32px;
+}
+
+.hero__container {
+  padding-bottom: 52px;
+}
+
+.hero__title {
+  margin-bottom: 32px;
+
+  font-family: 'Gilroy';
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #e7e7e7;
+}
+
+.hero__btn {
+  margin-bottom: 32px;
+
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+
+  color: rgba(255, 255, 255, 0.9);
+
+  background-color: var(--accent-color);
+  max-width: 280px;
+  width: 100%;
+  padding-top: 19px;
+  padding-bottom: 20px;
+}

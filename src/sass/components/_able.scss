@@ -1,0 +1,36 @@
+.able__wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  @media screen and (min-width: 1440px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.able__text {
+  position: relative;
+  padding-left: 37px;
+
+  &::before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+
+    left: 0;
+    top: 2px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+
+    background-color: var(--accent-color);
+    @media screen and (min-width: 768px) {
+      top: 5px;
+    }
+    @media screen and (min-width: 1440px) {
+      top: 8px;
+    }
+  }
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}

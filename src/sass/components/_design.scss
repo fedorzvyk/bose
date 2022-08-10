@@ -3,9 +3,11 @@
     display: flex;
     gap: 60px;
     flex-direction: row-reverse;
+    padding-right: 60px;
   }
   @media screen and (min-width: 1440px) {
     gap: 150px;
+    padding-right: 80px;
   }
 }
 
@@ -23,9 +25,8 @@
 .design__image {
   @media screen and (min-width: 768px) {
     flex: 0 0 50%;
-    margin-left: -60px;
   }
   @media screen and (min-width: 1440px) {
-    margin-left: -80px;
+    width: 590px;
   }
 }

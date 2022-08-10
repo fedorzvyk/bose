@@ -3,8 +3,29 @@
   padding-bottom: 32px;
   display: flex;
   justify-content: space-between;
+
+  @media screen and (min-width: 768px) {
+    padding-bottom: 52px;
+  }
+  @media screen and (min-width: 1440px) {
+    padding-bottom: 70px;
+  }
+}
+
+.header__menu {
+  display: none;
+  font-size: 16px;
+  line-height: 19px;
+
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    gap: 77px;
+  }
 }
 
 .header__menu-button {
   background-color: inherit;
+  @media screen and (min-width: 1440px) {
+    display: none;
+  }
 }

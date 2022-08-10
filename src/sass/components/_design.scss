@@ -1,7 +1,31 @@
+.design__container {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    gap: 60px;
+    flex-direction: row-reverse;
+  }
+  @media screen and (min-width: 1440px) {
+    gap: 150px;
+  }
+}
+
 .design__item:not(:last-child) {
   margin-bottom: 24px;
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 40px;
+  }
 }
 
 .design__list {
   margin-bottom: 32px;
+}
+
+.design__image {
+  @media screen and (min-width: 768px) {
+    flex: 0 0 50%;
+    margin-left: -60px;
+  }
+  @media screen and (min-width: 1440px) {
+    margin-left: -80px;
+  }
 }

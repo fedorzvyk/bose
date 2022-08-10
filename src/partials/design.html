@@ -1,25 +1,39 @@
 <section class="design">
   <div class="design__container container">
-    <h2 class="design__title title">Премиальный дизайн и комфорт</h2>
-    <ul class="design__list">
-      <li class="design__item">
-        <h3 class="design__subtitle subtitle">11 уровней шумоподавления</h3>
-        <p class="design__text text">
-          С новыми наушниками Bose Noise Cancelling Headphone 700 можно плавно
-          увеличить или уменьшить уровень шумоподавления. Вас слышно отлично и
-          вы слышите собеседника четко, даже в шумной обстановке!
-        </p>
-      </li>
-      <li class="design__item">
-        <h3 class="design__subtitle subtitle">Комфорт на максимум</h3>
-        <p class="design__text text">
-          Стильная, легкая дужка из нержавеющей стали с мягкими, расположенными
-          под углом чашками наушников для комфортной посадки. Внутренняя сторона
-          выполнена из мягкой гелевой подкладки, которая хорошо прилегает к
-          голове.
-        </p>
-      </li>
-    </ul>
-    <img src="./images/design/img.jpg" alt="" />
+    <div class="design__body">
+      <h2 class="design__title title">Премиальный дизайн и комфорт</h2>
+      <ul class="design__list">
+        <li class="design__item">
+          <h3 class="design__subtitle subtitle">11 уровней шумоподавления</h3>
+          <p class="design__text text">
+            С новыми наушниками Bose Noise Cancelling Headphone 700 можно плавно
+            увеличить или уменьшить уровень шумоподавления. Вас слышно отлично и
+            вы слышите собеседника четко, даже в шумной обстановке!
+          </p>
+        </li>
+        <li class="design__item">
+          <h3 class="design__subtitle subtitle">Комфорт на максимум</h3>
+          <p class="design__text text">
+            Стильная, легкая дужка из нержавеющей стали с мягкими,
+            расположенными под углом чашками наушников для комфортной посадки.
+            Внутренняя сторона выполнена из мягкой гелевой подкладки, которая
+            хорошо прилегает к голове.
+          </p>
+        </li>
+      </ul>
+    </div>
+    <picture class="design__image">
+      <source
+        srcset="./images/design/img-desktop.jpg 1x"
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="./images/design/img-tablet.jpg 1x"
+        media="(min-width: 768px)"
+      />
+      <source srcset="./images/design/img.jpg 1x" media="(max-width: 767px)" />
+      <img src="./images/design/img.jpg" alt="girl" />
+    </picture>
+    <!-- <img class="design__image" src="./images/design/img.jpg" alt="" /> -->
   </div>
 </section>
